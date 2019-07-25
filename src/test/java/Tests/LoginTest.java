@@ -90,6 +90,8 @@ public class LoginTest extends BaseTest {
 
         // logare cu spatii
 
+
+        
         String emailaddressvalue = "     ";
         WebElement emailfield = driver.findElement(By.xpath("//input[@placeholder='E mail']"));
         emailfield.sendKeys(emailaddressvalue);
